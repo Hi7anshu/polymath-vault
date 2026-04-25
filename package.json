@@ -1,0 +1,42 @@
+{
+  "name": "polymath-world",
+  "version": "0.1.0",
+  "description": "A structured second brain for polymaths — PARA + LLM Wiki + Caveman in one installable package",
+  "bin": {
+    "polymath-world": "./bin/setup.js"
+  },
+  "scripts": {
+    "start": "node bin/setup.js"
+  },
+  "keywords": [
+    "second-brain",
+    "obsidian",
+    "para",
+    "pkm",
+    "knowledge-management",
+    "claude",
+    "llm",
+    "polymath",
+    "note-taking",
+    "zettelkasten"
+  ],
+  "author": "hi7anshu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hi7anshu/polymath-world.git"
+  },
+  "homepage": "https://github.com/hi7anshu/polymath-world#readme",
+  "bugs": {
+    "url": "https://github.com/hi7anshu/polymath-world/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "skills/",
+    "docs/"
+  ]
+}

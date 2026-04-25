@@ -1,0 +1,6 @@
+{
+  "model": "claude-sonnet-4-5",
+  "skills": [
+    "https://raw.githubusercontent.com/hi7anshu/polymath-world/main/skills/llm-wiki.md"
+  ]
+}
