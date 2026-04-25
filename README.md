@@ -8,6 +8,8 @@ npx polymath-world
 
 One command scaffolds your entire knowledge system: folder structure, Claude schema, skill files, and daily workflow — ready to use in under 60 seconds.
 
+> 🆕 **Never used a terminal before?** Read the [complete beginner setup guide](docs/getting-started.md) — covers everything from installing Node.js to your first ingest, step by step.
+
 ---
 
 ## The Problem
@@ -73,12 +75,31 @@ No manual tagging. No reformatting. No copy-pasting.
 ## Quick Start
 
 ### Requirements
-- [Obsidian](https://obsidian.md/) (free)
-- [Claude Code](https://claude.ai/code) with an Anthropic API key
-- Node.js 18+
+
+| Tool | What it is | Install |
+|------|-----------|---------|
+| [Obsidian](https://obsidian.md/) | Note-taking app — your vault lives here | Free download |
+| [Node.js 18+](https://nodejs.org/) | Needed to run the `npx` command below | Free — grab the LTS version |
+| [Claude Code](https://claude.ai/code) | Anthropic's AI assistant that runs in your terminal — **different from claude.ai** | ~$0.01–0.05/day (API usage, no subscription) |
+
+> New to any of these? The [Getting Started guide](docs/getting-started.md) walks through installing each one.
 
 ### Install
 
+**1. Open your terminal**
+- **Windows:** Press the Windows key → type `Terminal` → press Enter
+- **Mac:** Press Cmd+Space → type `Terminal` → press Enter
+
+**2. Navigate to where you want your vault** (e.g. your Documents folder):
+```bash
+# Windows
+cd Documents
+
+# Mac / Linux
+cd ~/Documents
+```
+
+**3. Run the installer:**
 ```bash
 npx polymath-world
 ```
@@ -88,14 +109,30 @@ The CLI will ask you:
 2. What areas you want to start with (e.g. Learning, Health, Finance, Work)
 3. Whether to install the caveman skill for token compression
 
-That's it. Open the folder in Obsidian, open Claude Code in the same directory, and start ingesting.
+**4. Open the vault in Obsidian:** File → Open folder as vault → select the folder just created.
+
+**5. Start Claude Code inside the vault:**
+```bash
+cd my-vault   # use the name you chose
+claude
+```
+
+Claude will read `CLAUDE.md` and confirm it's ready. You're set.
+
+---
+
+### Prefer no terminal?
+
+If you'd rather skip the command line entirely, use the **"Use this template"** button at the top of this repo. It creates a copy of the vault structure directly on GitHub — you can then download or clone it, open it in Obsidian, and start from Step 5 above.
 
 ---
 
 ## The Workflow
 
+> All workflow commands below are typed inside your **Claude Code session** — the terminal window where you ran `claude` from inside your vault folder.
+
 ### Daily Ingest
-Drop a source (article URL, PDF, saved note) and say:
+Drop a source file into `3 - Resources/` inside your vault, then say:
 
 ```
 ingest [filename or URL]
@@ -196,6 +233,7 @@ The vault is a tool for polymaths — people who follow curiosity across domains
 
 ## Documentation
 
+- [Getting Started](docs/getting-started.md) — complete beginner guide: install everything, run the CLI, open your vault, start your first session
 - [Ingest Guide](docs/ingest-guide.md) — step-by-step: turning any source into structured wiki pages
 - [Daily Notes](docs/daily-notes.md) — how daily notes are handled differently (no summary page)
 - [FAQ](docs/faq.md) — setup, workflow, token efficiency, philosophy

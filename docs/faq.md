@@ -4,6 +4,22 @@ Frequently asked questions about Polymath World.
 
 ---
 
+## New to this? Start here
+
+**What is a terminal / command prompt?**
+A terminal is an app where you type commands instead of clicking buttons. On Windows, search for "Terminal" or "Command Prompt" in the Start menu. On Mac, press Cmd+Space and type "Terminal." The `npx polymath-world` command is typed there.
+
+**What's the difference between Claude.ai and Claude Code?**
+[Claude.ai](https://claude.ai) is the chatbot in your browser — you chat with it, it forgets everything when you close the tab. **Claude Code** is a separate tool that runs in your terminal and can read and write files on your computer. That's what makes it a persistent wiki maintainer rather than just a question-answerer. They use the same underlying AI but serve completely different purposes.
+
+**Where do I type the workflow commands (ingest, lint, etc.)?**
+Inside your **Claude Code session** — the terminal window where you ran `claude` from inside your vault folder. Not in the browser, not in Obsidian. In the terminal, after Claude has confirmed it's ready.
+
+**Do I need to pay? How much?**
+Claude Code uses usage-based API pricing — you're charged for the tokens used each session, not a flat monthly fee. A typical daily ingest session costs **$0.01–$0.05**. With the optional caveman compression, that drops by 65–75%. Most users spend under $5/month.
+
+---
+
 ## Setup
 
 **Do I need Obsidian?**

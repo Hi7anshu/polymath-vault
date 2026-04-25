@@ -1,6 +1,6 @@
 {
   "name": "polymath-world",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A structured second brain for polymaths — PARA + LLM Wiki + Caveman in one installable package",
   "bin": {
     "polymath-world": "bin/setup.js"
