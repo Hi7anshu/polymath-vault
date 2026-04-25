@@ -194,6 +194,15 @@ The vault is a tool for polymaths — people who follow curiosity across domains
 
 ---
 
+## Documentation
+
+- [Ingest Guide](docs/ingest-guide.md) — step-by-step: turning any source into structured wiki pages
+- [Daily Notes](docs/daily-notes.md) — how daily notes are handled differently (no summary page)
+- [FAQ](docs/faq.md) — setup, workflow, token efficiency, philosophy
+- [Publishing to npm](docs/publishing.md) — how to publish your own fork or contribute a release
+
+---
+
 ## Contributing
 
 PRs welcome. Open an issue if something breaks or you want to propose a new workflow pattern.
