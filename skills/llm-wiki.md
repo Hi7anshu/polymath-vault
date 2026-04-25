@@ -1,7 +1,7 @@
 # LLM Wiki — Claude Code Skill
 
 A Claude Code skill for maintaining a PARA-structured Obsidian knowledge base.
-Part of the [Polymath World](https://github.com/hi7anshu/polymath-world) system.
+Part of the [Polymath World](https://github.com/hi7anshu/polymath-vault) system.
 
 ---
 
@@ -32,7 +32,7 @@ a `CLAUDE.md` schema file.
 In Claude Code, run:
 
 ```
-/skills add https://raw.githubusercontent.com/hi7anshu/polymath-world/main/skills/llm-wiki.md
+/skills add https://raw.githubusercontent.com/hi7anshu/polymath-vault/main/skills/llm-wiki.md
 ```
 
 Or add to your `.claude/settings.json`:
@@ -40,7 +40,7 @@ Or add to your `.claude/settings.json`:
 ```json
 {
   "skills": [
-    "https://raw.githubusercontent.com/hi7anshu/polymath-world/main/skills/llm-wiki.md"
+    "https://raw.githubusercontent.com/hi7anshu/polymath-vault/main/skills/llm-wiki.md"
   ]
 }
 ```

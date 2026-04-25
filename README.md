@@ -206,4 +206,4 @@ MIT — use it, fork it, build on it.
 
 ---
 
-_Built by [@hi7anshu](https://github.com/hi7anshu) · Star this if it's useful · Share it with someone who has too many tabs open_
+_Built by [@hi7anshu](https://github.com/hi7anshu/polymath-vault) · Star this if it's useful · Share it with someone who has too many tabs open_

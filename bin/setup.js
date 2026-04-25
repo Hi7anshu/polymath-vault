@@ -507,7 +507,7 @@ async function main() {
     print(DIM + '  Caveman skill will be loaded when you start a Claude Code session.' + RESET);
     print('');
   }
-  print(DIM + '  ★ Star the repo: https://github.com/hi7anshu/polymath-world' + RESET);
+  print(DIM + '  ★ Star the repo: https://github.com/hi7anshu/polymath-vault' + RESET);
   print('');
 
   rl.close();
