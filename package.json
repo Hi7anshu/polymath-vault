@@ -1,6 +1,6 @@
 {
   "name": "polymath-world",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A structured second brain for polymaths — PARA + LLM Wiki + Caveman in one installable package",
   "bin": {
     "polymath-world": "bin/setup.js"
@@ -15,10 +15,16 @@
     "pkm",
     "knowledge-management",
     "claude",
+    "claude-code",
     "llm",
+    "ai",
     "polymath",
     "note-taking",
-    "zettelkasten"
+    "zettelkasten",
+    "productivity",
+    "personal-knowledge-management",
+    "building-a-second-brain",
+    "wiki"
   ],
   "author": "hi7anshu",
   "license": "MIT",
