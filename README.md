@@ -8,6 +8,8 @@ npx polymath-world
 
 One command scaffolds your entire knowledge system: folder structure, Claude schema, skill files, and daily workflow — ready to use in under 60 seconds.
 
+<img src="docs/demo.svg" alt="Polymath World demo" width="680"/>
+
 > 🆕 **Never used a terminal before?** Read the [complete beginner setup guide](docs/getting-started.md) — covers everything from installing Node.js to your first ingest, step by step.
 
 ---
