@@ -41,7 +41,7 @@ Karpathy proposed using an LLM not as a chatbot, but as a **persistent knowledge
 
 That's exactly what `CLAUDE.md` does here. Claude doesn't answer questions and forget. Claude maintains the wiki.
 
-### 3. Caveman by [Julius](https://github.com/juliuslipp/claude-caveman)
+### 3. Caveman by [Julius](https://github.com/JuliusBrussee)
 A Claude Code skill that compresses output tokens by 65–75% using terse, minimal language for conversational messages — while keeping wiki page content clean and readable.
 
 Result: faster responses, lower API costs, zero quality loss on the stuff that matters.
@@ -228,7 +228,7 @@ The vault is a tool for polymaths — people who follow curiosity across domains
 
 - **PARA Method** — [Tiago Forte](https://fortelabs.com/) — the foundational organising structure
 - **LLM Wiki concept** — [Andrej Karpathy](https://x.com/karpathy) — the philosophy of LLM-as-wiki-maintainer
-- **Caveman** — [Julius](https://github.com/juliuslipp/claude-caveman) — token compression for Claude Code
+- **Caveman** — [Julius](https://github.com/JuliusBrussee) — token compression for Claude Code
 - **Obsidian** — [Obsidian.md](https://obsidian.md/) — the local-first knowledge base that makes the graph possible
 
 ---
